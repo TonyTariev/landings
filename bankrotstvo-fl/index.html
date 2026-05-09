@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Бюро Захаровой — Списание долгов через банкротство физлиц</title>
+  <meta name="description" content="Юридическое сопровождение процедуры банкротства физических лиц. Бесплатная оценка дела за 20 минут. Защита единственного жилья.">
+  <meta property="og:title" content="Бюро Захаровой — Списание долгов через банкротство">
+  <meta property="og:description" content="Списываем кредитные долги по 127-ФЗ. Под ключ: документы, суд, защита единственного жилья.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tonytariev.github.io/landings/bankrotstvo-fl/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'serif'],
+            sans: ['"Source Sans 3"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            paper: { DEFAULT: '#F7F3EC', soft: '#EFE9DD', mute: '#E3DBC8' },
+            ink: { DEFAULT: '#1A1A18', soft: '#3A3A36', mute: '#6B6B66' },
+            bronze: { DEFAULT: '#8B6F3A', dim: '#6F5A2F', soft: '#C8B186' },
+            moss: { DEFAULT: '#4F6B5C' },
+          },
+          letterSpacing: { tightish: '-0.02em' },
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-feature-settings: "ss01"; }
+    .hairline { background-image: linear-gradient(to right, transparent, rgba(26,26,24,0.18), transparent); height: 1px; }
+    .serif-italic { font-family: 'Cormorant Garamond', serif; font-style: italic; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; float: right; color: #8B6F3A; font-family: 'Source Sans 3'; transition: transform .2s ease; }
+    details[open] summary::after { content: '−'; }
+    input[type="radio"] { accent-color: #8B6F3A; }
+    .placeholder-card { position: relative; }
+    .placeholder-card::before {
+      content: 'placeholder — заменить на реальный отзыв';
+      position: absolute; top: -10px; left: 16px;
+      font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+      background: #F7F3EC; padding: 0 8px; color: #8B6F3A;
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body class="bg-paper text-ink font-sans antialiased min-h-screen">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:bg-bronze focus:text-paper focus:px-3 focus:py-1 focus:rounded">К содержимому</a>
+
+  <!-- NAV -->
+  <header class="border-b border-ink/10">
+    <nav class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2.5">
+        <span class="font-display text-2xl font-semibold tracking-tightish">Бюро Захаровой</span>
+      </a>
+      <div class="hidden md:flex items-center gap-7 text-sm text-ink-soft">
+        <a href="#how" class="hover:text-ink">Как работаем</a>
+        <a href="#benefits" class="hover:text-ink">Гарантии</a>
+        <a href="#faq" class="hover:text-ink">Вопросы</a>
+        <a href="#cta" class="hover:text-ink">Консультация</a>
+      </div>
+      <a href="#cta" class="text-sm bg-bronze text-paper px-4 py-2 rounded-full font-medium hover:bg-bronze-dim transition">Разбор дела</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="relative">
+      <div class="max-w-5xl mx-auto px-6 pt-20 pb-24 sm:pt-32 sm:pb-32">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-bronze mb-6">127-ФЗ · банкротство физических лиц</p>
+        <h1 class="font-display font-semibold text-5xl sm:text-7xl leading-[1.02] tracking-tightish max-w-4xl mb-7">
+          Списываем кредитные <span class="serif-italic text-bronze">долги</span> через процедуру банкротства.
+        </h1>
+        <p class="text-lg sm:text-xl text-ink-soft leading-relaxed max-w-2xl mb-10">
+          Разберём ваше дело за 20 минут — бесплатно. Если процедура подходит, ведём её под ключ: документы, заявление в арбитражный суд, защита единственного жилья, освобождение от долгов.
+        </p>
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+          <a href="#cta" class="bg-bronze text-paper px-7 py-3.5 rounded-full font-medium hover:bg-bronze-dim transition text-base inline-flex items-center justify-center">
+            Получить разбор дела →
+          </a>
+          <a href="#how" class="text-ink-soft hover:text-ink text-sm underline underline-offset-4">
+            Сначала почитать, как это работает
+          </a>
+        </div>
+        <div class="mt-14 hairline"></div>
+      </div>
+    </section>
+
+    <!-- PROBLEM (PAS) -->
+    <section class="bg-paper-soft border-y border-ink/5">
+      <div class="max-w-4xl mx-auto px-6 py-20">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-moss mb-5">Где вы сейчас</p>
+        <h2 class="font-display text-3xl sm:text-5xl leading-tight tracking-tightish mb-8">
+          Долги не <span class="serif-italic">растворяются</span> — они растут.
+        </h2>
+        <div class="grid sm:grid-cols-3 gap-8 text-ink-soft leading-relaxed">
+          <div>
+            <p class="font-display text-xl text-ink mb-2">Звонки коллекторов</p>
+            <p class="text-sm">Ежедневные звонки в 8 утра, давление на родственников и работодателя. Это не пройдёт само.</p>
+          </div>
+          <div>
+            <p class="font-display text-xl text-ink mb-2">Приставы и аресты</p>
+            <p class="text-sm">Аресты счетов, удержания с зарплаты до 50%, ограничение выезда за границу.</p>
+          </div>
+          <div>
+            <p class="font-display text-xl text-ink mb-2">Снежный ком</p>
+            <p class="text-sm">Пени, штрафы, перепродажа долга — сумма к уплате каждый месяц больше, чем была.</p>
+          </div>
+        </div>
+        <p class="mt-10 text-base text-ink-soft max-w-2xl leading-relaxed">
+          С 2015 года закон №&nbsp;127-ФЗ даёт физическому лицу право на <span class="text-ink font-medium">списание долгов через банкротство</span>. Это законная, завершаемая процедура — не уловка, не «серая схема».
+        </p>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how">
+      <div class="max-w-6xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-bronze mb-5">Как мы работаем</p>
+        <h2 class="font-display text-3xl sm:text-5xl tracking-tightish mb-14 max-w-3xl">
+          Три шага. От первого звонка — до определения суда.
+        </h2>
+        <ol class="grid md:grid-cols-3 gap-8">
+
+          <li class="bg-paper-soft border border-ink/10 rounded-2xl p-7">
+            <div class="font-display text-5xl text-bronze mb-3">01</div>
+            <h3 class="font-display text-2xl mb-3 tracking-tightish">Бесплатная консультация</h3>
+            <p class="text-ink-soft text-sm leading-relaxed">20 минут. Анализируем сумму долга, состав имущества, источник дохода. Говорим прямо: подходит ли вам банкротство — или нет.</p>
+          </li>
+
+          <li class="bg-paper-soft border border-ink/10 rounded-2xl p-7">
+            <div class="font-display text-5xl text-bronze mb-3">02</div>
+            <h3 class="font-display text-2xl mb-3 tracking-tightish">Документы и заявление</h3>
+            <p class="text-ink-soft text-sm leading-relaxed">Готовим полный пакет: справки, выписки, опись имущества, заявление в арбитражный суд. Вам нужно только подписать.</p>
+          </li>
+
+          <li class="bg-paper-soft border border-ink/10 rounded-2xl p-7">
+            <div class="font-display text-5xl text-bronze mb-3">03</div>
+            <h3 class="font-display text-2xl mb-3 tracking-tightish">Ведение процедуры</h3>
+            <p class="text-ink-soft text-sm leading-relaxed">Сопровождаем во всех заседаниях, отвечаем на запросы суда и финансового управляющего. На выходе — определение о завершении и освобождение от долгов.</p>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section id="benefits" class="bg-paper-soft border-y border-ink/5">
+      <div class="max-w-5xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-moss mb-5">Что вы получаете</p>
+        <h2 class="font-display text-3xl sm:text-5xl tracking-tightish mb-14 max-w-3xl">
+          Пять вещей, которые мы <span class="serif-italic">обещаем</span> в договоре.
+        </h2>
+        <div class="grid md:grid-cols-2 gap-x-12 gap-y-10">
+
+          <div class="flex gap-5">
+            <div class="font-mono text-bronze text-sm pt-1">01</div>
+            <div>
+              <h3 class="font-display text-2xl tracking-tightish mb-2">Полное списание долгов</h3>
+              <p class="text-ink-soft text-sm leading-relaxed">Все требования кредиторов, включённые в реестр, после завершения процедуры — списываются по 127-ФЗ.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-5">
+            <div class="font-mono text-bronze text-sm pt-1">02</div>
+            <div>
+              <h3 class="font-display text-2xl tracking-tightish mb-2">Защита единственного жилья</h3>
+              <p class="text-ink-soft text-sm leading-relaxed">Единственная пригодная для проживания квартира или дом не попадают в конкурсную массу (если не в ипотеке).</p>
+            </div>
+          </div>
+
+          <div class="flex gap-5">
+            <div class="font-mono text-bronze text-sm pt-1">03</div>
+            <div>
+              <h3 class="font-display text-2xl tracking-tightish mb-2">Сопровождение под ключ</h3>
+              <p class="text-ink-soft text-sm leading-relaxed">От первого звонка до определения суда — все этапы ведёт один юрист. Без передачи дела ассистентам и call-центрам.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-5">
+            <div class="font-mono text-bronze text-sm pt-1">04</div>
+            <div>
+              <h3 class="font-display text-2xl tracking-tightish mb-2">Фиксированная стоимость</h3>
+              <p class="text-ink-soft text-sm leading-relaxed">Цена фиксируется в письменном договоре до начала работ. Без скрытых доплат «по ходу процедуры».</p>
+            </div>
+          </div>
+
+          <div class="flex gap-5 md:col-span-2">
+            <div class="font-mono text-bronze text-sm pt-1">05</div>
+            <div>
+              <h3 class="font-display text-2xl tracking-tightish mb-2">Конфиденциальность</h3>
+              <p class="text-ink-soft text-sm leading-relaxed">Ваши данные защищены ФЗ&nbsp;№&nbsp;152 «О персональных данных». Мы не публикуем сведения о клиентах и не передаём их третьим лицам, кроме предусмотренных законом случаев.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS (placeholders) -->
+    <section>
+      <div class="max-w-5xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-bronze mb-5">Отзывы клиентов</p>
+        <h2 class="font-display text-3xl sm:text-4xl tracking-tightish mb-12 max-w-2xl">
+          Слова <span class="serif-italic">тех, кто</span> прошёл процедуру.
+        </h2>
+        <div class="grid md:grid-cols-2 gap-6">
+
+          <figure class="placeholder-card bg-paper border border-bronze/40 rounded-2xl p-7 pt-9">
+            <blockquote class="font-display text-xl leading-snug text-ink mb-5">
+              «Здесь будет реальный отзыв клиента — 2–3 предложения о результате. Заменить перед публикацией.»
+            </blockquote>
+            <figcaption class="text-sm text-ink-mute font-mono">— Имя клиента, краткое описание ситуации</figcaption>
+          </figure>
+
+          <figure class="placeholder-card bg-paper border border-bronze/40 rounded-2xl p-7 pt-9">
+            <blockquote class="font-display text-xl leading-snug text-ink mb-5">
+              «Второй placeholder-отзыв. Реальные истории работают сильнее любого маркетинга — попросите 2–3 завершённых клиента дать пару строк.»
+            </blockquote>
+            <figcaption class="text-sm text-ink-mute font-mono">— Имя клиента, краткое описание ситуации</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM / CTA -->
+    <section id="cta" class="bg-ink text-paper">
+      <div class="max-w-3xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-bronze-soft mb-5">Бесплатный разбор дела</p>
+        <h2 class="font-display text-3xl sm:text-5xl tracking-tightish mb-5 leading-tight">
+          Узнайте, подходит ли <span class="serif-italic">банкротство</span> в вашем случае.
+        </h2>
+        <p class="text-paper/70 mb-10 leading-relaxed max-w-xl">
+          Заполните форму — перезвоним в течение часа в рабочее время и зададим 5–7 уточняющих вопросов. После этого скажем прямо: имеет ли смысл начинать процедуру.
+        </p>
+
+        <form class="bg-paper text-ink rounded-2xl p-7 sm:p-9 space-y-6" onsubmit="event.preventDefault(); document.getElementById('form-note').classList.remove('hidden');">
+
+          <div>
+            <label for="name" class="block font-medium text-sm mb-2">Как к вам обращаться</label>
+            <input id="name" name="name" type="text" required placeholder="Имя"
+              class="w-full bg-paper-soft border border-ink/15 rounded-lg px-4 py-3 outline-none focus:border-bronze transition">
+          </div>
+
+          <div>
+            <label for="phone" class="block font-medium text-sm mb-2">Телефон для звонка</label>
+            <input id="phone" name="phone" type="tel" required placeholder="+7 ___ ___ __ __"
+              class="w-full bg-paper-soft border border-ink/15 rounded-lg px-4 py-3 outline-none focus:border-bronze transition">
+          </div>
+
+          <fieldset>
+            <legend class="font-medium text-sm mb-3">Сумма долга больше 300 000 ₽?</legend>
+            <div class="flex gap-6">
+              <label class="flex items-center gap-2 cursor-pointer">
+                <input type="radio" name="debt_size" value="more" required>
+                <span>Да, больше</span>
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer">
+                <input type="radio" name="debt_size" value="less">
+                <span>Меньше</span>
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer">
+                <input type="radio" name="debt_size" value="unknown">
+                <span>Не знаю точно</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend class="font-medium text-sm mb-3">Есть имущество для оценки (квартира, авто, доли)?</legend>
+            <div class="flex gap-6">
+              <label class="flex items-center gap-2 cursor-pointer">
+                <input type="radio" name="property" value="yes" required>
+                <span>Да</span>
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer">
+                <input type="radio" name="property" value="no">
+                <span>Нет</span>
+              </label>
+              <label class="flex items-center gap-2 cursor-pointer">
+                <input type="radio" name="property" value="only_home">
+                <span>Только единственное жильё</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="w-full bg-bronze text-paper py-4 rounded-full font-medium hover:bg-bronze-dim transition text-base">
+            Получить разбор дела
+          </button>
+
+          <p class="text-xs text-ink-mute leading-relaxed">
+            Отправляя форму, вы соглашаетесь на обработку персональных данных в соответствии с № 152-ФЗ. Мы не передаём данные третьим лицам.
+          </p>
+
+          <p id="form-note" class="hidden text-sm text-moss bg-moss/10 rounded-lg px-4 py-3">
+            Спасибо. На MVP-версии форма не отправляется — это демонстрационный лендинг. Свяжитесь по контактам в футере.
+          </p>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="bg-paper-soft border-y border-ink/5">
+      <div class="max-w-3xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-bronze mb-5">Вопросы</p>
+        <h2 class="font-display text-3xl sm:text-4xl tracking-tightish mb-10">Что обычно спрашивают</h2>
+        <div class="divide-y divide-ink/10">
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Сколько времени занимает процедура?</summary>
+            <p class="text-ink-soft mt-3 leading-relaxed">Стандартный срок — 6–10 месяцев с момента подачи заявления. Точный срок зависит от загрузки арбитражного суда вашего региона и количества кредиторов. Назовём ориентир после анализа дела на консультации.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Заберут ли единственное жильё?</summary>
+            <p class="text-ink-soft mt-3 leading-relaxed">Нет, если оно у вас единственное и не находится в ипотеке. Это закреплено в ст.&nbsp;446 ГПК РФ. Ипотечная квартира — отдельный случай, разберём индивидуально.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Что будет с кредитной историей?</summary>
+            <p class="text-ink-soft mt-3 leading-relaxed">В кредитной истории появится отметка о банкротстве на 5 лет. Это не ограничивает зарплатные карты, дебетовые счета и обычные покупки. Новые кредиты в этот период взять трудно — что для большинства клиентов и есть цель.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Могу ли я работать и получать зарплату во время процедуры?</summary>
+            <p class="text-ink-soft mt-3 leading-relaxed">Да. На время процедуры назначается финансовый управляющий, который контролирует крупные операции по счетам, но повседневная жизнь — работа, зарплата, оплата ЖКХ — продолжается как обычно.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Сколько стоят ваши услуги?</summary>
+            <p class="text-ink-soft mt-3 leading-relaxed">Стоимость услуг бюро фиксируется в письменном договоре после консультации. Отдельно идут обязательные расходы по процедуре (госпошлина, депозит на финансового управляющего, публикации) — их состав и суммы тоже называем заранее.</p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-paper">
+    <div class="max-w-6xl mx-auto px-6 py-12 grid sm:grid-cols-3 gap-8">
+      <div>
+        <p class="font-display text-2xl font-semibold tracking-tightish mb-2">Бюро Захаровой</p>
+        <p class="text-sm text-ink-mute leading-relaxed">Юридическое сопровождение процедуры банкротства физических лиц по 127-ФЗ.</p>
+      </div>
+      <div>
+        <p class="font-mono text-xs uppercase tracking-[0.18em] text-bronze mb-3">контакты <span class="text-ink-mute normal-case">(placeholder)</span></p>
+        <ul class="text-sm space-y-2 text-ink-soft">
+          <li><a href="tel:+74950000000" class="hover:text-ink">+7 (495) 000-00-00</a></li>
+          <li><a href="mailto:hello@example.com" class="hover:text-ink">hello@example.com</a></li>
+          <li><a href="https://t.me/example" class="hover:text-ink">@example в Telegram</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-mono text-xs uppercase tracking-[0.18em] text-bronze mb-3">прозрачность</p>
+        <p class="text-xs text-ink-mute leading-relaxed">
+          Информация на сайте носит ознакомительный характер. Окончательные условия и стоимость работ фиксируются в письменном договоре после консультации.
+        </p>
+      </div>
+    </div>
+    <div class="border-t border-ink/10">
+      <div class="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-ink-mute font-mono">
+        <div>© <span id="year"></span> Бюро Захаровой</div>
+        <div>версия лендинга — MVP, формы и контакты в режиме placeholder</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
