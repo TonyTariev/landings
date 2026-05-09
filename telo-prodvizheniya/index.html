@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ru" class="dark scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Тело продвижения — челлендж для мужчин 30+</title>
+  <meta name="description" content="Челлендж для мужчин 30+, у которых есть всё для спорта, кроме одного — продвижения по телу. Когда тело впереди, остальное догоняет.">
+  <meta property="og:title" content="Тело продвижения — челлендж для мужчин 30+">
+  <meta property="og:description" content="Когда тело идёт впереди, всё остальное догоняет.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tonytariev.github.io/landings/telo-prodvizheniya/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Bricolage Grotesque"', 'sans-serif'],
+            sans: ['Manrope', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            ink: { DEFAULT: '#0A0A0A', soft: '#141414', mute: '#1F1F1F', deep: '#050505' },
+            paper: { DEFAULT: '#F5F5F5', soft: '#A3A3A3', mute: '#525252' },
+            ember: { DEFAULT: '#F97316', dim: '#C2410C', soft: '#FB923C' },
+          },
+          letterSpacing: { tightish: '-0.025em', tight2: '-0.04em' },
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-feature-settings: "ss01"; }
+    .grain { background-image: radial-gradient(rgba(255,255,255,0.018) 1px, transparent 1px); background-size: 3px 3px; }
+    .pulse-dot { animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.4); } }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; float: right; color: #F97316; transition: transform .2s ease; }
+    details[open] summary::after { content: '−'; }
+    .ember-glow:hover { box-shadow: 0 0 0 6px rgba(249,115,22,0.18); }
+    .placeholder-block { position: relative; }
+    .placeholder-block::before {
+      content: '[заменить на факты от автора]';
+      position: absolute; top: 10px; right: 12px;
+      font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+      color: #F97316; font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body class="bg-ink text-paper font-sans antialiased min-h-screen grain">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:bg-ember focus:text-ink focus:px-3 focus:py-1 focus:rounded">К содержимому</a>
+
+  <!-- NAV -->
+  <header class="sticky top-0 z-30 backdrop-blur bg-ink/80 border-b border-white/5">
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2.5">
+        <span class="w-2 h-2 rounded-full bg-ember pulse-dot"></span>
+        <span class="font-display text-xl font-bold tracking-tight2">Тело продвижения</span>
+      </a>
+      <div class="hidden md:flex items-center gap-7 text-sm text-paper/65">
+        <a href="#manifesto" class="hover:text-paper">Манифест</a>
+        <a href="#format" class="hover:text-paper">Формат</a>
+        <a href="#promises" class="hover:text-paper">Что получишь</a>
+        <a href="#faq" class="hover:text-paper">Вопросы</a>
+      </div>
+      <a href="#cta" class="text-sm bg-ember text-ink px-4 py-2 rounded-full font-semibold ember-glow transition">Узнать условия</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10 opacity-60" style="background: radial-gradient(50% 60% at 70% 20%, rgba(249,115,22,0.18) 0%, transparent 65%);"></div>
+      <div class="max-w-6xl mx-auto px-6 pt-20 pb-28 sm:pt-32 sm:pb-40">
+        <p class="font-mono text-xs uppercase tracking-[0.25em] text-ember mb-8">Челлендж · Мужчины 30+</p>
+        <h1 class="font-display text-[clamp(3.5rem,11vw,9rem)] font-extrabold leading-[0.86] tracking-tight2 mb-8">
+          Тело <br>
+          <span class="text-ember">продвижения.</span>
+        </h1>
+        <p class="max-w-2xl text-lg sm:text-2xl text-paper/75 leading-snug font-medium mb-10 tracking-tightish">
+          Когда тело идёт впереди — всё остальное догоняет. Карьера. Отношения. Амбиции. Челлендж для мужчин, у которых есть всё для спорта, кроме одного — продвижения по телу.
+        </p>
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+          <a href="#cta" class="bg-ember text-ink px-8 py-4 rounded-full font-bold ember-glow transition text-base sm:text-lg uppercase tracking-wide">
+            Узнать условия →
+          </a>
+          <a href="https://t.me/example" class="text-paper/70 hover:text-paper text-sm sm:text-base underline underline-offset-4 decoration-paper/30 hover:decoration-ember">
+            Написать в Telegram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANIFESTO / PAS -->
+    <section id="manifesto" class="border-t border-white/5 bg-ink-soft">
+      <div class="max-w-4xl mx-auto px-6 py-24 sm:py-32">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-ember/80 mb-6">Манифест</p>
+
+        <h2 class="font-display text-4xl sm:text-6xl font-bold leading-[1.02] tracking-tight2 mb-10">
+          Ты знаешь, что можешь больше.<br>
+          <span class="text-paper/55">Но утром снова не пошёл.</span>
+        </h2>
+
+        <div class="space-y-7 text-lg text-paper/75 leading-relaxed max-w-3xl">
+          <p>У тебя есть зал в 10 минутах ходьбы. Кроссовки. Время — если перестать листать ленту вечером. Знание, как устроен дефицит калорий и почему сон важнее ещё одной главы Netflix.</p>
+          <p>Чего нет — это <span class="text-paper font-medium">делать</span>. Каждый раз — оправдание новое: понедельник, отпуск, проект, усталость, «начну после праздников».</p>
+          <p class="font-display text-2xl sm:text-3xl text-paper font-semibold leading-snug tracking-tightish">
+            «Тело продвижения» — не для тех, кто не знает. Для тех, кто <span class="text-ember">перестал себе врать</span>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAT (placeholders) -->
+    <section id="format" class="border-t border-white/5">
+      <div class="max-w-6xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-ember mb-6">Формат потока</p>
+        <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight2 mb-12 max-w-3xl leading-tight">
+          Конкретика — за плейсхолдерами. Перед запуском заполни четыре факта от автора.
+        </h2>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+          <div class="placeholder-block bg-ink-mute border border-ember/40 rounded-2xl p-7 pt-12">
+            <p class="font-mono text-xs text-paper/45 uppercase tracking-[0.18em] mb-3">Длительность</p>
+            <p class="font-display text-3xl font-bold text-paper">__ недель</p>
+          </div>
+
+          <div class="placeholder-block bg-ink-mute border border-ember/40 rounded-2xl p-7 pt-12">
+            <p class="font-mono text-xs text-paper/45 uppercase tracking-[0.18em] mb-3">Формат</p>
+            <p class="font-display text-3xl font-bold text-paper">онлайн / зал / гибрид</p>
+          </div>
+
+          <div class="placeholder-block bg-ink-mute border border-ember/40 rounded-2xl p-7 pt-12">
+            <p class="font-mono text-xs text-paper/45 uppercase tracking-[0.18em] mb-3">Старт потока</p>
+            <p class="font-display text-3xl font-bold text-paper">__ __, 2026</p>
+          </div>
+
+          <div class="placeholder-block bg-ink-mute border border-ember/40 rounded-2xl p-7 pt-12">
+            <p class="font-mono text-xs text-paper/45 uppercase tracking-[0.18em] mb-3">Стоимость</p>
+            <p class="font-display text-3xl font-bold text-paper">__ ₽</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INSIDE / 4 pillars -->
+    <section class="border-t border-white/5 bg-ink-soft">
+      <div class="max-w-6xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-ember mb-6">Что внутри</p>
+        <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight2 mb-14 max-w-3xl leading-tight">
+          Четыре столпа. <span class="text-paper/55">Без них — снова январь.</span>
+        </h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+          <article class="bg-ink-mute/80 border border-white/8 rounded-2xl p-7">
+            <div class="font-mono text-xs text-ember mb-4">01</div>
+            <h3 class="font-display text-2xl font-bold mb-3 tracking-tight2">Тренировки</h3>
+            <p class="text-paper/65 text-sm leading-relaxed">Программа, которая работает на твой уровень — от «давно не вставал со стула» до «бывал в зале серьёзно». Без надрыва на первой неделе.</p>
+          </article>
+
+          <article class="bg-ink-mute/80 border border-white/8 rounded-2xl p-7">
+            <div class="font-mono text-xs text-ember mb-4">02</div>
+            <h3 class="font-display text-2xl font-bold mb-3 tracking-tight2">Питание</h3>
+            <p class="text-paper/65 text-sm leading-relaxed">Не диета. Принципы, которые держатся без силы воли. Что есть в день тренировки, что — в выходной, что — в командировке и перелёте.</p>
+          </article>
+
+          <article class="bg-ink-mute/80 border border-white/8 rounded-2xl p-7">
+            <div class="font-mono text-xs text-ember mb-4">03</div>
+            <h3 class="font-display text-2xl font-bold mb-3 tracking-tight2">Дисциплина</h3>
+            <p class="text-paper/65 text-sm leading-relaxed">Чек-ин раз в день. Видно всем, кто в потоке. Не motivation, а accountability — и оно работает там, где «я сам себе обещал» проигрывает каждый раз.</p>
+          </article>
+
+          <article class="bg-ink-mute/80 border border-white/8 rounded-2xl p-7">
+            <div class="font-mono text-xs text-ember mb-4">04</div>
+            <h3 class="font-display text-2xl font-bold mb-3 tracking-tight2">Сообщество</h3>
+            <p class="text-paper/65 text-sm leading-relaxed">Те же мужики 30+, которые тоже задрались. Без токсичной маскулинности и без «братишь, не сдавайся». Просто люди, которые пришли делать.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 PROMISES -->
+    <section id="promises" class="border-t border-white/5">
+      <div class="max-w-5xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-ember mb-6">Что ты получишь</p>
+        <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight2 mb-14 max-w-3xl leading-tight">
+          Пять вещей, которые меняются, когда тело — впереди.
+        </h2>
+
+        <div class="space-y-10 max-w-4xl">
+
+          <div class="grid grid-cols-[auto_1fr] gap-6 sm:gap-10 items-baseline border-b border-white/5 pb-10">
+            <div class="font-display text-5xl sm:text-6xl font-extrabold text-ember">01</div>
+            <div>
+              <h3 class="font-display text-2xl sm:text-3xl font-bold tracking-tight2 mb-2">Энергия, которой хватает</h3>
+              <p class="text-paper/70 leading-relaxed">К пятнице у тебя ещё есть силы на семью и проекты, а не «доползти до дивана». Не из-за кофе — из-за тела, которое работает.</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-[auto_1fr] gap-6 sm:gap-10 items-baseline border-b border-white/5 pb-10">
+            <div class="font-display text-5xl sm:text-6xl font-extrabold text-ember">02</div>
+            <div>
+              <h3 class="font-display text-2xl sm:text-3xl font-bold tracking-tight2 mb-2">Самоуважение</h3>
+              <p class="text-paper/70 leading-relaxed">Главный дефицит мужчины 30+ — не время и не деньги. Это уважение к себе за то, что ты <em>делаешь</em> то, что обещал. Здесь оно возвращается.</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-[auto_1fr] gap-6 sm:gap-10 items-baseline border-b border-white/5 pb-10">
+            <div class="font-display text-5xl sm:text-6xl font-extrabold text-ember">03</div>
+            <div>
+              <h3 class="font-display text-2xl sm:text-3xl font-bold tracking-tight2 mb-2">Форма и тело</h3>
+              <p class="text-paper/70 leading-relaxed">Не «к лету». В состояние, в котором не стыдно снять футболку и которое держится не на 30-дневном спринте, а на сложившейся системе.</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-[auto_1fr] gap-6 sm:gap-10 items-baseline border-b border-white/5 pb-10">
+            <div class="font-display text-5xl sm:text-6xl font-extrabold text-ember">04</div>
+            <div>
+              <h3 class="font-display text-2xl sm:text-3xl font-bold tracking-tight2 mb-2">Дисциплина, которая остаётся</h3>
+              <p class="text-paper/70 leading-relaxed">Мышца, которую ты прокачаешь в челлендже, работает потом везде: в работе, в семье, в чтении, в деньгах. Тело — просто самый честный полигон.</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-[auto_1fr] gap-6 sm:gap-10 items-baseline">
+            <div class="font-display text-5xl sm:text-6xl font-extrabold text-ember">05</div>
+            <div>
+              <h3 class="font-display text-2xl sm:text-3xl font-bold tracking-tight2 mb-2">Свои люди</h3>
+              <p class="text-paper/70 leading-relaxed">Контакты с мужиками, которые после челленджа остаются на связи. Не «нетворк». Просто люди, рядом с которыми не стыдно быть взрослым.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF (placeholders) -->
+    <section class="border-t border-white/5 bg-ink-soft">
+      <div class="max-w-5xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-ember mb-6">Голоса тех, кто прошёл</p>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight2 mb-12 max-w-2xl leading-tight">
+          После запуска первого потока — заменить на реальные истории.
+        </h2>
+        <div class="grid md:grid-cols-2 gap-6">
+
+          <figure class="placeholder-block bg-ink-mute border border-ember/40 rounded-2xl p-7 pt-12">
+            <blockquote class="font-display text-xl font-semibold leading-snug text-paper mb-5 tracking-tightish">
+              «Здесь будет 2–3 предложения от участника прошлого потока. До-после, что изменилось, конкретика без воды.»
+            </blockquote>
+            <figcaption class="text-sm text-paper/45 font-mono">— Имя, возраст, чем занимается</figcaption>
+          </figure>
+
+          <figure class="placeholder-block bg-ink-mute border border-ember/40 rounded-2xl p-7 pt-12">
+            <blockquote class="font-display text-xl font-semibold leading-snug text-paper mb-5 tracking-tightish">
+              «Второй placeholder. Эти карточки — самые сильные на странице, не лень собрать живые цитаты от первой группы.»
+            </blockquote>
+            <figcaption class="text-sm text-paper/45 font-mono">— Имя, возраст, чем занимается</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="border-t border-white/5">
+      <div class="max-w-4xl mx-auto px-6 py-28 text-center">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-ember mb-6">Записаться</p>
+        <h2 class="font-display text-4xl sm:text-7xl font-extrabold tracking-tight2 leading-[0.95] mb-8">
+          Готов <span class="text-ember">перестать</span> <br>себе врать?
+        </h2>
+        <p class="text-paper/70 max-w-xl mx-auto mb-10 leading-relaxed">
+          Напиши в Telegram — расскажу про ближайший поток, отвечу на вопросы, скажу, подходишь ли ты под формат. Без воронок, без «оставьте номер».
+        </p>
+        <a href="https://t.me/example" target="_blank" rel="noopener" class="inline-flex items-center gap-3 bg-ember text-ink px-10 py-5 rounded-full font-bold ember-glow transition text-lg uppercase tracking-wide">
+          Написать в Telegram
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="border-t border-white/5 bg-ink-soft">
+      <div class="max-w-3xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.22em] text-ember mb-6">Вопросы</p>
+        <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight2 mb-10 leading-tight">Что обычно спрашивают</h2>
+        <div class="divide-y divide-white/8">
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none font-semibold tracking-tightish">У меня нулевая физическая база — это для меня?</summary>
+            <p class="text-paper/70 mt-3 leading-relaxed">Да. Программа адаптируется на старте под твой уровень. Цель — встроить тренировки и питание в обычную жизнь, а не загнать на первой неделе.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none font-semibold tracking-tightish">У меня график 14/0 и командировки. Как это совместить?</summary>
+            <p class="text-paper/70 mt-3 leading-relaxed">Челлендж изначально проектируется под занятых мужчин. Альтернативные тренировки в зале отеля, питание в перелётах и командировках — это часть программы, а не «сделайте сами».</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none font-semibold tracking-tightish">Что если выпаду на пару дней?</summary>
+            <p class="text-paper/70 mt-3 leading-relaxed">Возвращаешься. Челлендж не про «не пропусти ни дня» — он про то, чтобы один пропуск перестал означать «всё, забили». Это и есть тренируемая мышца.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none font-semibold tracking-tightish">Это очередной марафон в Telegram-канале?</summary>
+            <p class="text-paper/70 mt-3 leading-relaxed">Нет. Marathon-каналы зарабатывают на твоей вине — здесь обратный принцип: формат закрытый, набор ограничен, и тебе не нужно «вовлекаться в эфир». Делаешь — отмечаешься. Не делаешь — это видно.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none font-semibold tracking-tightish">Сколько это стоит и как оплатить?</summary>
+            <p class="text-paper/70 mt-3 leading-relaxed">Цену и условия оплаты автор называет в Telegram после короткого разговора. Возврат предусмотрен по правилам, которые также проговариваются до старта.</p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/5 bg-ink">
+    <div class="max-w-6xl mx-auto px-6 py-12 grid sm:grid-cols-3 gap-8">
+      <div>
+        <p class="font-display text-xl font-bold tracking-tight2 mb-2">Тело продвижения</p>
+        <p class="text-sm text-paper/45 leading-relaxed">Закрытый челлендж для мужчин 30+. Без воронок и инфоцыганщины.</p>
+      </div>
+      <div>
+        <p class="font-mono text-xs uppercase tracking-[0.18em] text-ember mb-3">контакты <span class="text-paper/35 normal-case">(placeholder)</span></p>
+        <ul class="text-sm space-y-2 text-paper/65">
+          <li><a href="https://t.me/example" class="hover:text-paper">@example в Telegram</a></li>
+          <li><a href="mailto:hello@example.com" class="hover:text-paper">hello@example.com</a></li>
+          <li><a href="tel:+70000000000" class="hover:text-paper">+7 (000) 000-00-00</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-mono text-xs uppercase tracking-[0.18em] text-ember mb-3">прозрачность</p>
+        <p class="text-xs text-paper/45 leading-relaxed">
+          Это MVP-лендинг. Перед запуском заполнить факты в блоке «Формат», подтвердить контакты, заменить placeholder-отзывы на реальные истории первого потока.
+        </p>
+      </div>
+    </div>
+    <div class="border-t border-white/5">
+      <div class="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-paper/35 font-mono">
+        <div>© <span id="year"></span> Тело продвижения</div>
+        <div>landing — MVP draft</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
