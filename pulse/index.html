@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ru" class="dark scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pulse — 5 минут в день, чтобы держать обещания себе</title>
+  <meta name="description" content="AI-ассистент для микро-привычек. Один вопрос в день вместо бесконечных трекеров. Ранний доступ.">
+  <meta property="og:title" content="Pulse — 5 минут в день, чтобы держать обещания себе">
+  <meta property="og:description" content="AI-ассистент для микро-привычек. Без gamification, без бесконечных списков. Один вопрос в день.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tonytariev.github.io/landings/pulse/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Fraunces', 'serif'],
+            sans: ['"IBM Plex Sans"', 'sans-serif'],
+            mono: ['"IBM Plex Mono"', 'monospace'],
+          },
+          colors: {
+            ink: { DEFAULT: '#0a0a0a', soft: '#141414', mute: '#1f1f1f' },
+            paper: { DEFAULT: '#f5f3ee', soft: '#e8e5dc' },
+            accent: { DEFAULT: '#a3e635', dim: '#65a30d' },
+          },
+          letterSpacing: { tight2: '-0.04em' },
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-feature-settings: "ss01", "ss02"; }
+    .grain { background-image: radial-gradient(rgba(255,255,255,0.025) 1px, transparent 1px); background-size: 3px 3px; }
+    .accent-text { color: #a3e635; }
+    .hover-pulse:hover { box-shadow: 0 0 0 6px rgba(163,230,53,0.18); }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; float: right; transition: transform .2s ease; }
+    details[open] summary::after { content: '−'; }
+  </style>
+</head>
+<body class="bg-ink text-paper font-sans antialiased min-h-screen grain">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:bg-accent focus:text-ink focus:px-3 focus:py-1 focus:rounded">Skip to content</a>
+
+  <!-- NAV -->
+  <header class="sticky top-0 z-30 backdrop-blur bg-ink/70 border-b border-white/5">
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+        <span class="font-display text-xl font-semibold tracking-tight2">Pulse</span>
+      </a>
+      <div class="hidden sm:flex items-center gap-6 text-sm text-paper/70">
+        <a href="#why" class="hover:text-paper">Зачем</a>
+        <a href="#how" class="hover:text-paper">Как работает</a>
+        <a href="#faq" class="hover:text-paper">FAQ</a>
+      </div>
+      <a href="#cta" class="text-sm bg-accent text-ink px-4 py-2 rounded-full font-medium hover-pulse transition">Ранний доступ</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10 opacity-50" style="background:radial-gradient(60% 60% at 50% 30%, rgba(163,230,53,0.18) 0%, transparent 60%);"></div>
+      <div class="max-w-5xl mx-auto px-6 pt-20 pb-24 sm:pt-32 sm:pb-32 text-center">
+        <div class="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-paper/50 mb-8 font-mono">
+          <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+          early access · ранний доступ
+        </div>
+        <h1 class="font-display font-semibold text-5xl sm:text-7xl leading-[0.95] tracking-tight2 mb-6">
+          5 минут в день, <br class="hidden sm:block">
+          чтобы <em class="accent-text not-italic">держать</em> <br class="hidden sm:block">
+          обещания себе.
+        </h1>
+        <p class="max-w-xl mx-auto text-lg sm:text-xl text-paper/70 leading-relaxed mb-10">
+          Pulse — AI-ассистент для микро-привычек. Задаёт один вопрос в день, на который тебе самому стыдно ответить «нет». Без бесконечных списков и психолога-чатбота.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+          <a href="#cta" class="bg-accent text-ink px-7 py-3 rounded-full font-medium hover-pulse transition text-base">
+            Получить ранний доступ →
+          </a>
+          <a href="#why" class="text-paper/60 hover:text-paper text-sm underline underline-offset-4">
+            сначала почитать
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM (PAS) -->
+    <section id="why" class="border-t border-white/5">
+      <div class="max-w-4xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-accent/80 mb-4">Не нужен ещё один трекер</p>
+        <h2 class="font-display text-3xl sm:text-5xl leading-tight tracking-tight2 mb-8">
+          Большинство приложений для привычек требуют от тебя дисциплины <em class="text-paper/60 not-italic">до того</em>, как привычка появилась.
+        </h2>
+        <div class="grid sm:grid-cols-2 gap-8 text-paper/70 leading-relaxed">
+          <div>
+            <p>Списки растут. Чек-боксы тускнеют. Открывать приложение становится отдельной задачей — и проигрывает первой же ленте в Instagram.</p>
+          </div>
+          <div>
+            <p>Pulse работает наоборот. <span class="text-paper">Один вопрос в день.</span> Ответ — да или нет. Это и есть твой чек-ин. Никакого «зайди настрои».</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="how" class="border-t border-white/5 bg-ink-soft">
+      <div class="max-w-6xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-accent/80 mb-4">Как работает</p>
+        <h2 class="font-display text-3xl sm:text-5xl leading-tight tracking-tight2 mb-12 max-w-3xl">
+          Четыре принципа. Никакой магии.
+        </h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <article class="bg-ink-mute/60 border border-white/5 rounded-2xl p-6">
+            <div class="font-mono text-xs text-accent mb-3">01</div>
+            <h3 class="font-display text-2xl mb-3 tracking-tight2">1-tap чек-ин</h3>
+            <p class="text-paper/65 text-sm leading-relaxed">«Сделал? Да / Нет.» Всё. На записи мысли уходит секунда — а не пятнадцать минут на «вечернюю рефлексию».</p>
+          </article>
+
+          <article class="bg-ink-mute/60 border border-white/5 rounded-2xl p-6">
+            <div class="font-mono text-xs text-accent mb-3">02</div>
+            <h3 class="font-display text-2xl mb-3 tracking-tight2">AI-анализ</h3>
+            <p class="text-paper/65 text-sm leading-relaxed">Видит, когда ты теряешь импульс, и подстраивает вопросы. Не читает мораль — задаёт правильный вопрос в правильный день.</p>
+          </article>
+
+          <article class="bg-ink-mute/60 border border-white/5 rounded-2xl p-6">
+            <div class="font-mono text-xs text-accent mb-3">03</div>
+            <h3 class="font-display text-2xl mb-3 tracking-tight2">Без gamification</h3>
+            <p class="text-paper/65 text-sm leading-relaxed">Ни streaks, ни значков, ни «не сломай цепочку». Цель — не приложение, а жизнь вне него.</p>
+          </article>
+
+          <article class="bg-ink-mute/60 border border-white/5 rounded-2xl p-6">
+            <div class="font-mono text-xs text-accent mb-3">04</div>
+            <h3 class="font-display text-2xl mb-3 tracking-tight2">Локально</h3>
+            <p class="text-paper/65 text-sm leading-relaxed">Данные на устройстве. Никаких облаков, рекламы и «улучшений сервиса» твоими дневниковыми записями.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <section class="border-t border-white/5">
+      <div class="max-w-4xl mx-auto px-6 py-20 text-center">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-paper/40 mb-6">stay tuned</p>
+        <p class="font-display text-2xl sm:text-3xl text-paper/85 leading-snug tracking-tight2 max-w-2xl mx-auto">
+          «Я неделю кивал на один и тот же вопрос — и впервые за полгода написал то, что обещал себе написать.»
+        </p>
+        <p class="text-paper/40 text-sm mt-6 font-mono">— early user, beta-2026</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="border-t border-white/5 bg-ink-soft">
+      <div class="max-w-3xl mx-auto px-6 py-24">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-accent/80 mb-4">FAQ</p>
+        <h2 class="font-display text-3xl sm:text-4xl tracking-tight2 mb-10">Что обычно спрашивают</h2>
+        <div class="divide-y divide-white/10">
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Это очередной todo-list?</summary>
+            <p class="text-paper/65 mt-3 leading-relaxed">Нет. В Pulse нельзя «добавить задачу». Ты выбираешь одну привычку, формулируешь её как вопрос, и отвечаешь раз в день. Точка.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Сколько стоит?</summary>
+            <p class="text-paper/65 mt-3 leading-relaxed">В ранний доступ — бесплатно. После релиза — $4/мес. без рекламы, без апселлов, без «pro-тарифов».</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Когда релиз?</summary>
+            <p class="text-paper/65 mt-3 leading-relaxed">Закрытая бета — летом 2026. Открытый релиз — когда первые пользователи перестанут предлагать радикальные правки. Не раньше.</p>
+          </details>
+
+          <details class="py-5">
+            <summary class="font-display text-lg sm:text-xl cursor-pointer list-none">Где живут мои данные?</summary>
+            <p class="text-paper/65 mt-3 leading-relaxed">На твоём телефоне. Опциональный шифрованный бэкап в iCloud / Google Drive — только если ты сам включишь.</p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="border-t border-white/5">
+      <div class="max-w-4xl mx-auto px-6 py-24 text-center">
+        <h2 class="font-display text-3xl sm:text-5xl tracking-tight2 mb-6">
+          Готов попробовать <em class="accent-text not-italic">один</em> вопрос в день?
+        </h2>
+        <p class="text-paper/65 max-w-xl mx-auto mb-10 leading-relaxed">
+          Напиши на email — пришлём приглашение в beta, как только откроется следующая волна.
+        </p>
+        <a href="mailto:hi@example.com?subject=Pulse%20early%20access" class="inline-block bg-accent text-ink px-8 py-4 rounded-full font-medium hover-pulse transition text-lg">
+          Запросить инвайт →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-white/5">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-paper/40">
+      <div class="font-mono">© <span id="year"></span> Pulse · prototype landing</div>
+      <div class="flex gap-5">
+        <a href="mailto:hi@example.com" class="hover:text-paper">email</a>
+        <a href="#" class="hover:text-paper">privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
