@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="yandex" content="noindex,nofollow,noarchive">
+  <title>Александра Ахтариева</title>
+  <meta name="description" content="Личная страница для самых близких.">
+  <meta property="og:title" content="Александра Ахтариева">
+  <meta property="og:description" content="Личная страница для самых близких.">
+  <meta property="og:type" content="profile">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Italianno&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            script: ['Italianno', 'cursive'],
+          },
+          colors: {
+            blush: { DEFAULT: '#FDF2F4', soft: '#FAE5E9', mute: '#F4D3DA', deep: '#EBB7C2' },
+            rose: { DEFAULT: '#C88A9C', dim: '#A86B7E', soft: '#D8A0B5' },
+            ink: { DEFAULT: '#3D2B30', soft: '#5A4348', mute: '#8A7479' },
+            cream: { DEFAULT: '#FFFAF7' },
+          },
+          letterSpacing: { tightish: '-0.025em', tight2: '-0.04em' },
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-feature-settings: "ss01"; }
+    .grain { background-image: radial-gradient(rgba(232,184,194,0.18) 1px, transparent 1px); background-size: 4px 4px; }
+    .serif-italic { font-family: 'Cormorant Garamond', serif; font-style: italic; }
+    .script { font-family: 'Italianno', cursive; }
+    .heart-divider { display: inline-flex; align-items: center; gap: .6rem; color: #C88A9C; }
+    .heart-divider::before, .heart-divider::after { content: ''; height: 1px; width: 56px; background: linear-gradient(90deg, transparent, #C88A9C, transparent); }
+    .photo-frame { position: relative; overflow: hidden; border-radius: 1.25rem; }
+    .photo-frame::after { content: ''; position: absolute; inset: 0; box-shadow: inset 0 0 0 1px rgba(200,138,156,0.18); border-radius: 1.25rem; pointer-events: none; }
+    .epithet { transition: transform .25s ease, color .25s ease; }
+    .epithet:hover { transform: translateY(-2px); color: #A86B7E; }
+    .country-chip { transition: transform .2s ease, background-color .2s ease; }
+    .country-chip:hover { transform: translateY(-2px); background-color: #FAE5E9; }
+    .float-soft { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+  </style>
+</head>
+<body class="bg-blush text-ink font-sans antialiased min-h-screen">
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <!-- Soft pink gradient backdrop -->
+    <div class="absolute inset-0 -z-10" style="background: radial-gradient(60% 70% at 80% 20%, rgba(235,183,194,0.55) 0%, transparent 60%), radial-gradient(50% 60% at 10% 80%, rgba(250,229,233,0.7) 0%, transparent 60%);"></div>
+
+    <div class="max-w-6xl mx-auto px-6 pt-12 pb-20 sm:pt-20 sm:pb-32">
+      <p class="font-mono text-[11px] uppercase tracking-[0.32em] text-rose-dim mb-8 text-center sm:text-left">для самых близких ✦ май 2026</p>
+
+      <div class="grid lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-16 items-center">
+
+        <!-- Photo -->
+        <div class="photo-frame float-soft order-1 lg:order-2 max-w-md mx-auto lg:max-w-none w-full">
+          <img src="assets/hero.jpg" alt="Александра" class="w-full h-auto block">
+        </div>
+
+        <!-- Text -->
+        <div class="order-2 lg:order-1 text-center lg:text-left">
+          <p class="script text-5xl sm:text-6xl text-rose mb-2 leading-none">it's me —</p>
+          <h1 class="font-display text-6xl sm:text-7xl lg:text-8xl font-medium leading-[0.92] tracking-tight2 mb-6">
+            <span class="block">Александра</span>
+            <span class="serif-italic text-rose">Ахтариева.</span>
+          </h1>
+          <p class="text-lg sm:text-xl text-ink-soft leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8">
+            Жена, мама, путешественница. Сейчас — счастливая декретница, и это самая любимая профессия из всех, что были.
+          </p>
+          <div class="heart-divider justify-center lg:justify-start">
+            <span class="font-display italic text-rose-dim text-base">с любовью</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EPITHETS / About her -->
+  <section class="border-y border-rose/15">
+    <div class="max-w-5xl mx-auto px-6 py-20 sm:py-28">
+      <p class="font-mono text-[11px] uppercase tracking-[0.28em] text-rose-dim mb-6 text-center">какая она</p>
+      <h2 class="font-display text-4xl sm:text-6xl tracking-tight2 leading-[1.05] mb-12 text-center">
+        Семь слов, <span class="serif-italic text-rose">которые ей подходят</span>.
+      </h2>
+
+      <div class="flex flex-wrap justify-center gap-x-2 gap-y-3 max-w-3xl mx-auto">
+        <span class="epithet font-display text-3xl sm:text-5xl px-3 py-1 cursor-default">классная</span>
+        <span class="text-rose-dim font-display text-3xl sm:text-5xl">·</span>
+        <span class="epithet font-display text-3xl sm:text-5xl px-3 py-1 cursor-default serif-italic">великолепная</span>
+        <span class="text-rose-dim font-display text-3xl sm:text-5xl">·</span>
+        <span class="epithet font-display text-3xl sm:text-5xl px-3 py-1 cursor-default">красивая</span>
+        <span class="text-rose-dim font-display text-3xl sm:text-5xl">·</span>
+        <span class="epithet font-display text-3xl sm:text-5xl px-3 py-1 cursor-default serif-italic">грандиозная</span>
+        <span class="text-rose-dim font-display text-3xl sm:text-5xl">·</span>
+        <span class="epithet font-display text-3xl sm:text-5xl px-3 py-1 cursor-default">хозяйственная</span>
+        <span class="text-rose-dim font-display text-3xl sm:text-5xl">·</span>
+        <span class="epithet font-display text-3xl sm:text-5xl px-3 py-1 cursor-default serif-italic">нежная</span>
+        <span class="text-rose-dim font-display text-3xl sm:text-5xl">·</span>
+        <span class="epithet font-display text-3xl sm:text-5xl px-3 py-1 cursor-default">своя</span>
+      </div>
+
+      <p class="text-center mt-12 max-w-2xl mx-auto text-lg text-ink-soft leading-relaxed">
+        Каждое слово — не комплимент ради комплимента. У каждого — конкретный человек, который про неё это говорит.
+      </p>
+    </div>
+  </section>
+
+  <!-- MAMA -->
+  <section class="bg-blush-soft">
+    <div class="max-w-5xl mx-auto px-6 py-20 sm:py-28">
+      <p class="font-mono text-[11px] uppercase tracking-[0.28em] text-rose-dim mb-6 text-center">мама</p>
+      <h2 class="font-display text-4xl sm:text-6xl tracking-tight2 leading-[1.05] mb-10 text-center max-w-3xl mx-auto">
+        А самое главное — <br><span class="serif-italic text-rose">мама Ромы</span>.
+      </h2>
+      <div class="max-w-3xl mx-auto space-y-6 text-lg text-ink-soft leading-relaxed text-center">
+        <p>В декабре 2025 года в семье появился сын Роман. С этого момента у Александры — новая работа, и она в неё влюблена так же, как Рома в маму.</p>
+        <p>Из всех профессий, которые она пробовала, эта — самая любимая. И самая важная.</p>
+        <p class="font-display text-2xl sm:text-3xl text-ink leading-snug pt-6">
+          «Мама — это не <em class="serif-italic text-rose">отпуск от работы</em>, это работа, ради которой стоило научиться всему остальному.»
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WIFE / Marriage -->
+  <section>
+    <div class="max-w-6xl mx-auto px-6 py-20 sm:py-28">
+      <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+        <div class="photo-frame">
+          <img src="assets/wedding.jpg" alt="Свадьба Саши и Антона" class="w-full h-auto block" loading="lazy">
+        </div>
+
+        <div>
+          <p class="font-mono text-[11px] uppercase tracking-[0.28em] text-rose-dim mb-6">жена</p>
+          <h2 class="font-display text-4xl sm:text-6xl tracking-tight2 leading-[1.02] mb-8">
+            Восемь с половиной лет вместе. <span class="serif-italic text-rose">Из них три</span> — официально.
+          </h2>
+          <div class="space-y-5 text-lg text-ink-soft leading-relaxed">
+            <p>Антон и Саша вместе с 2017 года. В 2023 — поженились, и с тех пор у Антона есть единственный аргумент против любого «у тебя всё получится»: <em class="text-ink">«у меня уже получилось — она здесь.»</em></p>
+            <p>Семья, которая держится не на «надо» — на том, что без неё теряет смысл всё остальное.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAVELS -->
+  <section class="bg-blush-soft border-y border-rose/15">
+    <div class="max-w-6xl mx-auto px-6 py-20 sm:py-28">
+      <p class="font-mono text-[11px] uppercase tracking-[0.28em] text-rose-dim mb-6 text-center">путешественница</p>
+      <h2 class="font-display text-4xl sm:text-6xl tracking-tight2 leading-[1.04] mb-6 text-center">
+        Восемнадцать стран и <span class="serif-italic text-rose">одна зимовка</span>.
+      </h2>
+      <p class="max-w-2xl mx-auto text-center text-lg text-ink-soft leading-relaxed mb-14">
+        Полгода жила в Таиланде и на Бали — пока кто-то спорил с холодом за окном. Это, кстати, типичное поведение.
+      </p>
+
+      <!-- Photo gallery (3 images) -->
+      <div class="grid sm:grid-cols-3 gap-4 mb-14 max-w-5xl mx-auto">
+        <div class="photo-frame aspect-[3/4] sm:aspect-auto">
+          <img src="assets/plane.jpg" alt="Air Astana, бизнес-класс" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="photo-frame aspect-[3/4] sm:aspect-auto">
+          <img src="assets/great-wall.jpg" alt="Великая Китайская стена" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="photo-frame aspect-[3/4] sm:aspect-auto">
+          <img src="assets/disneyland-castle.jpg" alt="Disneyland в Гонконге" class="w-full h-full object-cover" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Country chips -->
+      <p class="font-mono text-[10px] uppercase tracking-[0.28em] text-rose-dim mb-5 text-center">маршрут</p>
+      <div class="flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇷🇺 Россия</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇺🇦 Украина</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇹🇷 Турция</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇪🇬 Египет</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇹🇳 Тунис</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇦🇪 ОАЭ</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇨🇾 Кипр</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇨🇳 Китай</span>
+        <span class="country-chip bg-rose/15 border border-rose/40 rounded-full px-4 py-2 text-sm text-ink-soft">🇹🇭 Таиланд · зимовка</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇱🇦 Лаос</span>
+        <span class="country-chip bg-rose/15 border border-rose/40 rounded-full px-4 py-2 text-sm text-ink-soft">🇮🇩 Бали · зимовка</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇰🇭 Камбоджа</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇰🇿 Казахстан</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇺🇿 Узбекистан</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇲🇾 Малайзия</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇦🇿 Азербайджан</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇸🇬 Сингапур</span>
+        <span class="country-chip bg-cream border border-rose/20 rounded-full px-4 py-2 text-sm text-ink">🇫🇷 Франция · Париж</span>
+      </div>
+
+      <!-- 4th photo as banner -->
+      <div class="photo-frame mt-12 max-w-4xl mx-auto aspect-[16/9]">
+        <img src="assets/disneyland-gates.jpg" alt="Hong Kong Disneyland Resort" class="w-full h-full object-cover" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- FRIENDS / Девочка-девочка -->
+  <section>
+    <div class="max-w-4xl mx-auto px-6 py-20 sm:py-28 text-center">
+      <p class="font-mono text-[11px] uppercase tracking-[0.28em] text-rose-dim mb-6">подружки</p>
+      <h2 class="font-display text-4xl sm:text-6xl tracking-tight2 leading-[1.04] mb-10">
+        У неё несколько <span class="serif-italic text-rose">самых-самых</span>.<br>
+        Они её любят. Она их — <span class="serif-italic">обожает</span>.
+      </h2>
+      <div class="space-y-6 text-lg text-ink-soft leading-relaxed max-w-2xl mx-auto">
+        <p>Девочка-девочка. Без иронии и без снисходительности. Без той уставшей стервозности, которая заводится у некоторых женщин с возрастом.</p>
+        <p>Просто человек, рядом с которым хочется быть собой — и непременно лучше, чем вчера.</p>
+        <p class="font-display italic text-2xl text-rose-dim pt-4">
+          «Если женщина после 30 — это сила, то Саша — это сила и нежность одновременно.»
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blush-mute/40 border-t border-rose/15">
+    <div class="max-w-5xl mx-auto px-6 py-14 text-center">
+      <p class="script text-6xl sm:text-7xl text-rose leading-none mb-4">— the end —</p>
+      <p class="font-display text-xl sm:text-2xl tracking-tightish text-ink-soft mb-2">
+        Эта страница — <span class="serif-italic text-rose">маленький подарок</span> Сашке.
+      </p>
+      <p class="text-sm text-ink-mute font-sans max-w-md mx-auto leading-relaxed">
+        Не для гугла, не для алгоритмов и не для холодного интернета. Только для своих.
+      </p>
+      <p class="font-mono text-[10px] uppercase tracking-[0.28em] text-rose-dim mt-10">
+        © <span id="year"></span> · с любовью, Антон
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Pages disallowed for all crawlers (private-by-obscurity).
+User-agent: *
+Disallow: /best-woman-ever/
+
+# All other landings remain crawlable.
