@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Синий Шар | ВЭД без переплат — закрытый канал для импортёров</title>
+  <meta name="description" content="Закрытый Telegram-канал логистов «Синего Шара» с 12-летним опытом: ставки фрахта, ходы таможни и схемы экономии до 20% на каждой поставке из Китая, Европы и США.">
+  <meta property="og:title" content="Синий Шар | ВЭД без переплат">
+  <meta property="og:description" content="Возите из Китая дешевле. Ставки фрахта, таможня без сюрпризов и схемы экономии до 20% — в одном канале. Подписка бесплатная.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tonytariev.github.io/landings/siniy-shar/">
+  <meta property="og:image" content="https://loremflickr.com/1200/630/cargo,container,ship">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Sora', 'sans-serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: { DEFAULT: '#1d4ed8', bright: '#2563eb', dark: '#1e3a8a', wash: '#eff6ff' },
+            ink: { DEFAULT: '#0f172a', soft: '#334155', mute: '#64748b' },
+          },
+          letterSpacing: { tightx: '-0.03em' },
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-feature-settings: "ss01"; }
+    .grid-bg {
+      background-image:
+        linear-gradient(to right, rgba(37,99,235,0.06) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(37,99,235,0.06) 1px, transparent 1px);
+      background-size: 44px 44px;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; float: right; color: #2563eb; font-weight: 700; transition: transform .2s ease; }
+    details[open] summary::after { content: '−'; }
+    .card-hover { transition: transform .2s ease, box-shadow .2s ease; }
+    .card-hover:hover { transform: translateY(-3px); box-shadow: 0 18px 40px -18px rgba(29,78,216,0.45); }
+  </style>
+</head>
+<body class="bg-white text-ink font-sans antialiased min-h-screen">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-brand focus:text-white focus:px-3 focus:py-1 focus:rounded">К содержанию</a>
+
+  <!-- NAV -->
+  <header class="sticky top-0 z-30 backdrop-blur bg-white/80 border-b border-slate-200/70">
+    <nav class="max-w-6xl mx-auto px-6 py-3.5 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2.5">
+        <span class="grid place-items-center w-8 h-8 rounded-full bg-brand text-white text-sm font-bold">●</span>
+        <span class="font-display text-lg font-bold tracking-tightx">Синий&nbsp;Шар</span>
+      </a>
+      <div class="hidden sm:flex items-center gap-7 text-sm text-ink-soft font-medium">
+        <a href="#inside" class="hover:text-brand transition">Что внутри</a>
+        <a href="#who" class="hover:text-brand transition">Для кого</a>
+        <a href="#faq" class="hover:text-brand transition">FAQ</a>
+      </div>
+      <a href="https://t.me/siniyshar" class="rounded-full bg-brand hover:bg-brand-dark text-white text-sm font-semibold px-5 py-2.5 transition">Подписаться</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="relative grid-bg overflow-hidden">
+      <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-brand/10 blur-3xl"></div>
+      <div class="max-w-6xl mx-auto px-6 pt-16 pb-20 lg:pt-24 lg:pb-28 grid lg:grid-cols-2 gap-12 items-center relative">
+        <div>
+          <span class="inline-flex items-center gap-2 rounded-full bg-brand-wash text-brand-dark text-xs font-semibold px-3.5 py-1.5 mb-6 ring-1 ring-brand/15">
+            ● Закрытый канал · подписка бесплатная
+          </span>
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-[3.4rem] font-extrabold leading-[1.05] tracking-tightx">
+            Возите из Китая
+            <span class="text-brand">дешевле</span>,
+            чем сейчас
+          </h1>
+          <p class="mt-6 text-lg text-ink-soft max-w-xl leading-relaxed">
+            Закрытый Telegram-канал логистов «Синего&nbsp;Шара» с 12-летним опытом во ВЭД. Ставки фрахта, ходы таможни и схемы экономии <span class="font-semibold text-ink">до&nbsp;20% на каждой&nbsp;поставке</span> — простым языком, без воды.
+          </p>
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="#join" class="rounded-full bg-brand hover:bg-brand-dark text-white font-semibold px-7 py-3.5 text-center transition shadow-lg shadow-brand/25">
+              Хочу в канал →
+            </a>
+            <a href="#inside" class="rounded-full ring-1 ring-slate-300 hover:ring-brand text-ink font-semibold px-7 py-3.5 text-center transition">
+              Что внутри
+            </a>
+          </div>
+          <p class="mt-5 text-sm text-ink-mute">Уже читают закупщики, селлеры маркетплейсов и импортёры.</p>
+        </div>
+
+        <div class="relative">
+          <img src="https://loremflickr.com/800/640/cargo,container,port" alt="Контейнерный терминал и грузовые перевозки" loading="lazy"
+               class="rounded-2xl w-full h-[420px] object-cover shadow-2xl shadow-brand/20 ring-1 ring-slate-200">
+          <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl ring-1 ring-slate-200 px-5 py-4 hidden sm:block">
+            <div class="text-2xl font-display font-bold text-brand">−20%</div>
+            <div class="text-xs text-ink-mute leading-tight">средняя экономия<br>на поставке</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STATS STRIP -->
+      <div class="border-t border-slate-200 bg-white/70">
+        <div class="max-w-6xl mx-auto px-6 py-7 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+          <div><div class="font-display text-3xl font-bold text-ink">12</div><div class="text-sm text-ink-mute">лет во ВЭД</div></div>
+          <div><div class="font-display text-3xl font-bold text-ink">6&nbsp;279</div><div class="text-sm text-ink-mute">доставок</div></div>
+          <div><div class="font-display text-3xl font-bold text-ink">118&nbsp;000</div><div class="text-sm text-ink-mute">тонн груза</div></div>
+          <div><div class="font-display text-3xl font-bold text-ink">47</div><div class="text-sm text-ink-mute">стран в работе</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAIN / WHY -->
+    <section class="max-w-6xl mx-auto px-6 py-20 lg:py-24">
+      <div class="max-w-2xl">
+        <h2 class="font-display text-3xl lg:text-4xl font-bold tracking-tightx">Логистика «вслепую» съедает прибыль</h2>
+        <p class="mt-4 text-ink-soft text-lg leading-relaxed">
+          Ставки фрахта скачут, таможня меняет правила без предупреждения, поставщик присылает «не то и не в том количестве». Каждая такая мелочь — минус из вашей маржи. В канале мы показываем, как этого избежать — на реальных поставках, а не в теории.
+        </p>
+      </div>
+    </section>
+
+    <!-- INSIDE -->
+    <section id="inside" class="bg-slate-50 border-y border-slate-200">
+      <div class="max-w-6xl mx-auto px-6 py-20 lg:py-24">
+        <div class="flex items-end justify-between flex-wrap gap-4 mb-12">
+          <h2 class="font-display text-3xl lg:text-4xl font-bold tracking-tightx">Что внутри канала</h2>
+          <p class="text-ink-mute max-w-sm">Несколько постов в неделю. Только практика, которая обычно остаётся внутри логистической компании.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <article class="card-hover bg-white rounded-2xl p-6 ring-1 ring-slate-200">
+            <div class="w-11 h-11 grid place-items-center rounded-xl bg-brand-wash text-brand text-xl mb-4">📈</div>
+            <h3 class="font-display font-bold text-lg">Ставки фрахта и курс юаня</h3>
+            <p class="mt-2 text-ink-soft text-sm leading-relaxed">Каждую неделю — актуальные цифры, чтобы вы знали реальную стоимость доставки раньше конкурентов.</p>
+          </article>
+          <article class="card-hover bg-white rounded-2xl p-6 ring-1 ring-slate-200">
+            <div class="w-11 h-11 grid place-items-center rounded-xl bg-brand-wash text-brand text-xl mb-4">🛃</div>
+            <h3 class="font-display font-bold text-lg">Таможня без сюрпризов</h3>
+            <p class="mt-2 text-ink-soft text-sm leading-relaxed">Изменения правил, пошлин и сертификации простым языком — до того, как они ударят по вашей поставке.</p>
+          </article>
+          <article class="card-hover bg-white rounded-2xl p-6 ring-1 ring-slate-200">
+            <div class="w-11 h-11 grid place-items-center rounded-xl bg-brand-wash text-brand text-xl mb-4">💰</div>
+            <h3 class="font-display font-bold text-lg">Схемы экономии до 20%</h3>
+            <p class="mt-2 text-ink-soft text-sm leading-relaxed">Консолидация, выбор плеча доставки, работа с документами — как сократить стоимость каждой поставки.</p>
+          </article>
+          <article class="card-hover bg-white rounded-2xl p-6 ring-1 ring-slate-200">
+            <div class="w-11 h-11 grid place-items-center rounded-xl bg-brand-wash text-brand text-xl mb-4">🔍</div>
+            <h3 class="font-display font-bold text-lg">Разбор брака и поставщиков</h3>
+            <p class="mt-2 text-ink-soft text-sm leading-relaxed">Реальные кейсы: как проверить фабрику и не получить «не то и не в том количестве».</p>
+          </article>
+          <article class="card-hover bg-white rounded-2xl p-6 ring-1 ring-slate-200">
+            <div class="w-11 h-11 grid place-items-center rounded-xl bg-brand-wash text-brand text-xl mb-4">📑</div>
+            <h3 class="font-display font-bold text-lg">Шаблоны и чек-листы</h3>
+            <p class="mt-2 text-ink-soft text-sm leading-relaxed">Комплект документов для бухгалтерии и готовые формы под ВЭД — забираете и пользуетесь.</p>
+          </article>
+          <article class="card-hover bg-brand text-white rounded-2xl p-6 ring-1 ring-brand flex flex-col justify-between">
+            <div>
+              <div class="w-11 h-11 grid place-items-center rounded-xl bg-white/15 text-xl mb-4">🌐</div>
+              <h3 class="font-display font-bold text-lg">Опыт, а не теория</h3>
+              <p class="mt-2 text-white/85 text-sm leading-relaxed">Пишут логисты, которые провели 6&nbsp;279 поставок в 47 стран. Каждый совет проверен грузом.</p>
+            </div>
+            <a href="#join" class="mt-5 inline-block rounded-full bg-white text-brand font-semibold text-sm px-5 py-2.5 text-center hover:bg-brand-wash transition">Подписаться бесплатно</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO -->
+    <section id="who" class="max-w-6xl mx-auto px-6 py-20 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="relative order-2 lg:order-1">
+        <img src="https://loremflickr.com/800/600/warehouse,logistics,worker" alt="Складская логистика и обработка груза" loading="lazy"
+             class="rounded-2xl w-full h-[380px] object-cover shadow-xl ring-1 ring-slate-200">
+      </div>
+      <div class="order-1 lg:order-2">
+        <h2 class="font-display text-3xl lg:text-4xl font-bold tracking-tightx">Для кого этот канал</h2>
+        <ul class="mt-7 space-y-4">
+          <li class="flex gap-3"><span class="text-brand font-bold mt-0.5">✓</span><span class="text-ink-soft"><span class="font-semibold text-ink">Импортёрам и оптовикам</span>, которые возят товар из Китая, Европы и США.</span></li>
+          <li class="flex gap-3"><span class="text-brand font-bold mt-0.5">✓</span><span class="text-ink-soft"><span class="font-semibold text-ink">Селлерам маркетплейсов</span>, для которых сроки и цена доставки решают маржу.</span></li>
+          <li class="flex gap-3"><span class="text-brand font-bold mt-0.5">✓</span><span class="text-ink-soft"><span class="font-semibold text-ink">Закупщикам и логистам</span> в компаниях, которым нужен контроль качества и документы в порядке.</span></li>
+          <li class="flex gap-3"><span class="text-brand font-bold mt-0.5">✓</span><span class="text-ink-soft"><span class="font-semibold text-ink">Тем, кто только начинает ВЭД</span> и не хочет учиться на дорогих ошибках.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- JOIN / FORM -->
+    <section id="join" class="bg-brand-dark text-white relative overflow-hidden">
+      <div class="absolute inset-0 grid-bg opacity-[0.15]"></div>
+      <div class="max-w-3xl mx-auto px-6 py-20 lg:py-24 relative text-center">
+        <h2 class="font-display text-3xl lg:text-4xl font-bold tracking-tightx">Заберите стартовый чек-лист по экономии</h2>
+        <p class="mt-4 text-white/80 text-lg max-w-xl mx-auto">
+          Оставьте имя и Telegram — пришлём ссылку на канал и чек-лист «10 способов снизить стоимость доставки из Китая».
+        </p>
+
+        <form class="mt-9 max-w-md mx-auto text-left" onsubmit="return handleJoin(event)">
+          <label class="block text-sm font-medium text-white/80 mb-1.5" for="name">Имя</label>
+          <input id="name" name="name" type="text" required placeholder="Как к вам обращаться"
+                 class="w-full rounded-xl px-4 py-3 mb-4 text-ink bg-white ring-1 ring-white/20 focus:ring-2 focus:ring-white outline-none">
+
+          <label class="block text-sm font-medium text-white/80 mb-1.5" for="tg">Telegram или телефон</label>
+          <input id="tg" name="tg" type="text" required placeholder="@username или +7…"
+                 class="w-full rounded-xl px-4 py-3 mb-5 text-ink bg-white ring-1 ring-white/20 focus:ring-2 focus:ring-white outline-none">
+
+          <button type="submit" class="w-full rounded-full bg-white text-brand-dark font-bold px-6 py-3.5 hover:bg-brand-wash transition">
+            Хочу в канал
+          </button>
+          <p id="formNote" class="mt-3 text-sm text-white/70 text-center">Подписка бесплатная и ни к чему не обязывает.</p>
+        </form>
+
+        <div class="mt-6">
+          <a href="https://t.me/siniyshar" class="inline-flex items-center gap-2 text-white/90 hover:text-white text-sm font-medium underline underline-offset-4">
+            Или сразу открыть канал в Telegram →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="max-w-3xl mx-auto px-6 py-20 lg:py-24">
+      <h2 class="font-display text-3xl lg:text-4xl font-bold tracking-tightx text-center mb-10">Частые вопросы</h2>
+      <div class="space-y-3">
+        <details class="group bg-slate-50 rounded-xl px-5 py-4 ring-1 ring-slate-200">
+          <summary class="cursor-pointer font-semibold list-none">Это платный канал?</summary>
+          <p class="mt-3 text-ink-soft leading-relaxed">Нет, подписка бесплатная. Мы делимся практикой, чтобы вы видели, как устроена логистика изнутри — и при случае выбрали нас для доставки.</p>
+        </details>
+        <details class="group bg-slate-50 rounded-xl px-5 py-4 ring-1 ring-slate-200">
+          <summary class="cursor-pointer font-semibold list-none">Как часто выходят посты?</summary>
+          <p class="mt-3 text-ink-soft leading-relaxed">Несколько раз в неделю: свежие ставки, новости таможни и разборы кейсов. Без спама и «воды».</p>
+        </details>
+        <details class="group bg-slate-50 rounded-xl px-5 py-4 ring-1 ring-slate-200">
+          <summary class="cursor-pointer font-semibold list-none">Я вожу не из Китая — мне подойдёт?</summary>
+          <p class="mt-3 text-ink-soft leading-relaxed">Да. Материал про ВЭД, документы и экономию универсален для любых направлений: Европа, США, СНГ. У нас 47 стран в работе.</p>
+        </details>
+        <details class="group bg-slate-50 rounded-xl px-5 py-4 ring-1 ring-slate-200">
+          <summary class="cursor-pointer font-semibold list-none">Это просто реклама ваших услуг?</summary>
+          <p class="mt-3 text-ink-soft leading-relaxed">В первую очередь — польза. Захотите расчёт доставки — поможем, но подписка ни к чему не обязывает.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="max-w-6xl mx-auto px-6 pb-20">
+      <div class="rounded-3xl bg-brand text-white px-8 py-14 text-center relative overflow-hidden">
+        <div class="absolute -top-20 -right-10 w-72 h-72 rounded-full bg-white/10 blur-3xl"></div>
+        <h2 class="font-display text-3xl lg:text-4xl font-bold tracking-tightx relative">Перестаньте переплачивать за доставку</h2>
+        <p class="mt-4 text-white/85 max-w-xl mx-auto relative">12 лет опыта «Синего Шара» — теперь в вашем Telegram. Бесплатно.</p>
+        <a href="#join" class="mt-8 inline-block rounded-full bg-white text-brand font-bold px-8 py-3.5 hover:bg-brand-wash transition relative">Подписаться на канал</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-6 py-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
+      <div>
+        <div class="flex items-center gap-2.5 mb-3">
+          <span class="grid place-items-center w-7 h-7 rounded-full bg-brand text-white text-xs font-bold">●</span>
+          <span class="font-display text-base font-bold">Синий Шар</span>
+        </div>
+        <p class="text-ink-mute leading-relaxed">Международные грузоперевозки из Китая, России, СНГ, Европы и США. Бережно и точно в срок.</p>
+      </div>
+      <div>
+        <div class="font-semibold mb-3">Мессенджеры</div>
+        <ul class="space-y-2 text-ink-soft">
+          <li><a href="https://t.me/siniyshar" class="hover:text-brand transition">Telegram — @siniyshar</a></li>
+          <li><a href="#" class="hover:text-brand transition">VK</a></li>
+          <li><a href="#" class="hover:text-brand transition">Max</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold mb-3">Москва</div>
+        <p class="text-ink-mute leading-relaxed">115088, Москва,<br>Южнопортовая ул., 9Б</p>
+      </div>
+      <div>
+        <div class="font-semibold mb-3">Китай</div>
+        <p class="text-ink-mute leading-relaxed">Гуанчжоу,<br>Китайская Народная Республика</p>
+      </div>
+    </div>
+    <div class="border-t border-slate-200">
+      <div class="max-w-6xl mx-auto px-6 py-5 text-xs text-ink-mute flex flex-col sm:flex-row justify-between gap-2">
+        <span>© Синий Шар. Логистика без переплат.</span>
+        <span>Закрытый Telegram-канал · подписка бесплатная</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function handleJoin(e) {
+      e.preventDefault();
+      var note = document.getElementById('formNote');
+      note.textContent = 'Готово! Открываем канал в Telegram…';
+      note.classList.remove('text-white/70');
+      note.classList.add('text-white', 'font-semibold');
+      setTimeout(function () { window.location.href = 'https://t.me/siniyshar'; }, 1200);
+      return false;
+    }
+  </script>
+</body>
+</html>
